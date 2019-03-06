@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu  xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/btnAccountSettings" android:title="Genel Ayarlar"></item>
+    <item android:id="@+id/btnNewChatRoom" android:title="Sohbet Odaları"></item>
+    <item android:id="@+id/btnExit" android:title="Çıkış Yap"></item>
+</menu>
+
+

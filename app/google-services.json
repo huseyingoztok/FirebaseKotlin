@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "453967295193",
+    "firebase_url": "https://fir-kotlin-3339a.firebaseio.com",
+    "project_id": "fir-kotlin-3339a",
+    "storage_bucket": "fir-kotlin-3339a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453967295193:android:26161b1f7bec7eba",
+        "android_client_info": {
+          "package_name": "com.example.husgo.firebasekotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453967295193-ijipuj41tngcslrttdc6u15uqmi2u6ad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7iZMCiyv52Bk_jUKk5Lgm1JfjUXVw3ps"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

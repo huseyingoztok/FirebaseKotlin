@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/chat_room_info_design"
+    app:layout_constraintCircleRadius="10dp">
+
+    <ImageView
+        android:id="@+id/imgSingleLineUserPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+
+    <TextView
+        android:id="@+id/tvSingleLineUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="UserName"
+        android:textColorLink="@color/colorAccent"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imgSingleLineUserPhoto"
+        app:layout_constraintStart_toEndOf="@+id/imgSingleLineUserPhoto"
+        app:layout_constraintTop_toTopOf="@+id/imgSingleLineUserPhoto" />
+
+    <ImageView
+        android:id="@+id/imgSingleLineDeleteRoom"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgSingleLineUserPhoto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgSingleLineUserPhoto"
+        app:srcCompat="@drawable/ic_delete" />
+
+    <TextView
+        android:id="@+id/tvMessageCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Mesaj Sayısı"
+        app:layout_constraintEnd_toEndOf="@+id/imgSingleLineDeleteRoom"
+        app:layout_constraintStart_toStartOf="@+id/imgSingleLineDeleteRoom"
+        app:layout_constraintTop_toBottomOf="@+id/imgSingleLineDeleteRoom" />
+
+    <TextView
+        android:id="@+id/tvSingleLineRoomName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imgSingleLineUserPhoto"
+        app:layout_constraintTop_toBottomOf="@+id/imgSingleLineUserPhoto"
+        app:layout_constraintVertical_bias="0.0" />
+</android.support.constraint.ConstraintLayout>
